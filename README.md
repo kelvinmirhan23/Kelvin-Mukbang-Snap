@@ -2,6 +2,10 @@
 
 https://kelvinmirhan23.github.io/Kelvin-Mukbang-Snap/
 
+Initial Design: 
+
+![Initial Design](https://github.com/user-attachments/assets/65999ac4-c607-4aa8-b34b-aee3bd39ecfc)
+
 Hi! I'm Kelvin and this is my submission for the Snap Engineering Academy Project Assessment.
 
 This is my second time creating a website but I wanted to put a lot of effort into it to showcase what I've learned in the last 2 years at community college as well as something fun for my personal brand! 
