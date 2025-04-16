@@ -1,132 +1,25 @@
-# SEA Stage 2 - Data Catalog Project
+# Kelvin's Mukbang & Munchlist
 
-This repository contains the instructions, requirements, and starter code for Stage Two of the Snap Engineering Academy application process.
+Hi! I'm Kelvin and this is my submission for the Snap Engineering Academy Project Assessment.
 
----
+This is my second time creating a website but I wanted to put a lot of effort into it to showcase what I've learned in the last 2 years at community college as well as something fun for my personal brand! 
+(I enjoy content creation on the side and I really love food.)
 
-## 📚 Table of Contents
+I’m currently pursuing a career shift into software engineering, but my path here has been non-traditional. I started out at community college at Pasadena City College before earning my undergraduate degree in Economics from UCLA (totally left field from what I do now). After graduating and working in finance for a few years, I realized that it didn't particularly line up with my goals and interests...
 
-- [Your Task](#your-task)
-- [Requirements](#requirements---your-catalog-website-should)
-- [Getting Started](#getting-started)
-- [Submitting](#submitting)
-- [❓ Frequently Asked Questions (FAQ)](#-frequently-asked-questions-faq)
+I only really discovered what I wanted to do when I looked back on a previous experience where
+I was a mentor for an organization at UCLA called ALLbrains, which supports neurodiverse individuals like myself. It taught me that I really loved helping people and I hope to help people that are like me. I found that I best express it through crafting fun and unique solutions whether it's just ideas, talking through things, or drawing things out! I always thought coding was kinda cool but intimidating but I wanted to combine my thinking with those feelings!
 
----
+This ultimately led me to return back to community college, an experience that I really enjoyed for its small and intimate learning experience, where I got to really thrive! I'm currently in the process of transferring to a Master's program (hopefully) in the near future and would love the opportunity to learn and grow around like-minded individuals and just be in a space where I can contribute to projects/work in a meaningful way.
 
-## 🎯 Your Task
+Shoutout to my wife for supporting me throughout this journey and helping me create my banner! Shoutout to all the amazing professors I've learned under at the various community colleges I've taken classes at recently and for my close friends and family for supporting my large career pivot!
 
-### <p align="center">Create a "catalog" website for something you're passionate about.</p>
+Thank you for taking the time to read this and I hope you enjoy my work! (I spent many, many, many hours in these 5 days to build this...)
 
-> 📝 **Note:**  
-> If you have not used GitHub or programmed a website with JavaScript before, that's OK! Part of the challenge is figuring out things you're not familiar with.
-
----
-
-## ✅ Requirements - Your Catalog Website Should...
-
-- Show off your understanding of basic data structures: **arrays** and **objects**.
-- Display a **substantial amount of interesting data** in a "catalog". You can look online for datasets or create your own.  
-  Your data should be easy to find in your source code—either in variables at the top of `scripts.js` or imported from a file.
-- Include **two or more features** that operate on your data and modify how it's displayed. Examples:
-  - Filtering
-  - Searching
-  - Sorting
-  - Updating
-  - Adding/removing entries  
-    Think about what users might want to do while using your site!
-- Look polished ✨. Use **HTML** and **CSS** to make your data easy to read and visually appealing.
-- Be built from this **starter code**—you can change anything you want, but build on top of it.
-- Be an **original** project. Please do not submit something previously created for a class, internship, or client.  
-  You are encouraged to use online resources, but **make sure you understand every line of code** in your project.
-
----
-
-## 🛠️ Getting Started
-
-1. **Create a GitHub account** if you haven't already.
-2. Click the green **"Use as Template"** button in the upper right corner, then choose **"Create a new repository"**:  
-   a. Choose yourself as the owner  
-   b. Give your repository a name  
-   c. Click **"Create Repository"**
-3. Copy or download the files to your own computer.
-4. Open and edit the website using a text editor:
-   - Modify `index.html`, `style.css`, and `scripts.js`.
-   - To preview, open `index.html` in a web browser (double-click it).
-   - You should see something like this:
-
-<img height="300" alt="Screenshot of catalog example" src="https://github.com/Snap-Engineering-Academy-2023/rn_lab1/assets/7607483/fdd57236-50fe-48ca-956d-d9b4b12db038">
-
----
-
-## 🚀 Submitting
-
-1. **Publish your website to the internet!**  
-   We recommend using [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
-2. **Test the published version.**  
-   Make sure everything works properly before submitting.
-3. **Update your GitHub repository** so it reflects the latest version of your project.
-4. **Submit** both:
-   - The **URL** to your published website
-   - The **link** to your GitHub repository  
-     …via the Google Form linked in your email.
-
----
-
-## ❓ Frequently Asked Questions (FAQ)
-
-### ❄️ Is it OK that my catalog resets when I refresh the page?
-
-**Yes!** That's exactly what the starter code does too. You don't need to worry about preserving data after a page refresh.
-
----
-
-### 💻 Can I copy bits of code from online resources?
-
-**Yes, absolutely!** You should search for and use **small chunks** of code.  
-For example:
-
-- ✅ Copying code to create a dropdown menu is fine.
-- ❌ Copying a full “filter data by date” feature is not.
-
-Be thoughtful about what you borrow!
-
----
-
-### 🤖 Can I use generative AI (like ChatGPT or Copilot)?
-
-**Partially.**
-
-- ✅ You _may_ use AI tools to help write **HTML** and **CSS**.
-- ❌ You _may not_ use AI to write **JavaScript**.
-
-HTML/CSS can be tricky to get right, and it's okay to get help making things look nice.  
-But JavaScript is where you show your own logic and understanding of data!
-
----
-
-### 🧰 Can I use a different template?
-
-**Nope!**  
-You must use the provided starter code, though you're free to customize it however you like.  
-You _can_ copy **small chunks** from other templates if needed.
-
----
-
-### 🛠️ Can I use a framework like React, Vue, Bootstrap, or Tailwind?
-
-**Nope!**  
-This project is for folks new to web dev. Frameworks do a lot of heavy lifting and hide the logic we're asking you to demonstrate.  
-SEA will teach you frameworks later—stick to **vanilla HTML, CSS, and JS** for now.
-
----
-
-### 🌐 Can I use APIs?
-
-**Nope!**  
-APIs can add complexity beyond the scope of this challenge.  
-If you really want to use data from an API, **save it to a file** (like `.json` or `.csv`) and use that instead.
-
----
-
-> 💬 **Have any questions?** Drop them on the [Padlet here](https://padlet.com/arlenschallenge/2025-snap-engineering-academy-stage-2-project-assessment-que-ndmqkef3wxt8sh72) and we'll get back to you!
+## Features
+- Create custom restaurant cards (using an array of objects) 
+- Sort restaurants by name (A-Z & Z-A)
+- Sort by restaurant rating (Highest to Lowest)
+- Surprise me! (If you are being indecisive on what to eat)
+- Rating System (Featuring my face)
+- Embedded YouTube Videos (My personal Mukbang content)
