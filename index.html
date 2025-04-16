@@ -1,31 +1,91 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
-  <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles" />
-    <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="scripts.js"></script>
-  </head>
 
-  <body>
-    <header class="main-header">
-      <h1 class="title">LA TV Shows</h1>
-    </header>
-    <div id="card-container"></div>
-    <div class="card" style="display: none">
-      <div class="card-content">
-        <h2>TV Show Title</h2>
-        <img src="" alt="TV Show Poster" />
-        <ul>
-          <li>Bullet Point 1</li>
-          <li>Bullet Point 2</li>
-          <li>Bullet Point 3</li>
-        </ul>
-      </div>
+<head>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <img src = "./images/kelvin-banner.jpeg" width = "100%" /> 
+  </header>
+
+  <!-- My Youtube Shorts Videos (3x) + Introduction -->
+  <div style="display: flex; background-color: lightgrey;">
+    <!-- Left: YouTube videos -->
+    <div style="display: flex; flex-direction: row;">
+      <iframe width="180" height="320"
+              src="https://youtube.com/embed/6aCgT0yy9cg?si=WThdkML8bd7vOiBc&autoplay=1&mute=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+      </iframe>
+  
+      <iframe width="180" height="320"
+              src="https://youtube.com/embed/AC45KGntEJA?si=CVPqh1dGApJYcPZl&autoplay=1&mute=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+      </iframe>
+  
+      <iframe width="180" height="320"
+              src="https://youtube.com/embed/JG9pK5j7V1U?si=qrrJl2KDThRxJfTa&autoplay=1&mute=1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen>
+      </iframe>
     </div>
-    <div class="footer">
-      <button onclick="quoteAlert();">Get A Quote!</button>
-      <button onclick="removeLastCard();">Remove A Card!</button>
+  
+    <!-- Right: Text -->
+    <div style="margin-left: 20px; font-family: Helvetica">
+      <h2>Hey it's me, Kelvin!!!!!!</h2>
+      <p>
+        welcome to my official mukbang & munchlist, where you’ll find my favorite places and their ratings with my high energy mukbangs to pair. as a passionate foodie who’s been eating for 27 years, i consider myself extremely qualified — you should definitely trust my opinion or not... enjoy!
+        <br>
+        <br>
+        all of these photos are from my personal collection or my dad's yelp page!
+        <br>
+        <br>
+        
+      </p>
     </div>
-  </body>
+  </div>
+  <!-- Card Functionality (Adding, Sorting) -->
+  <div class="functionality">
+    <h2>Add a New Restaurant</h2>
+
+    <input type="text" id="restaurant-name" placeholder="Restaurant Name" />
+    <input type="text" id="restaurant-location" placeholder="Location" />
+    <input type="number" step="0.1" min="0" max="5" id="restaurant-rating" placeholder="Rating (0–5)" />
+    <input type="text" id="restaurant-image" placeholder="Image URL (optional)" />
+    <input type="text" id="restaurant-description" placeholder="Image Description (optional)" />
+    <input type="text" id="restaurant-yelp" placeholder="Yelp Link (optional)" />
+
+    <button onclick="addNewRestaurant()">Add Restaurant</button>
+    <button onclick="sortByNameAscending()">Sort A–Z</button>
+    <button onclick="sortByNameDescending()">Sort Z–A</button>
+    <button onclick="sortByRating()">Sort by Rating</button>
+    <button onclick="surpriseMe()">What Should I Eat?</button>
+  </div> 
+
+  <!-- Restaurant Cards -->
+  <div id="card-container"></div>
+
+  <div class="card" style="display: none">
+    <div class="card-content">
+      <h2>Restaurant & Food Review</h2>
+      <div class="photo-gallery"></div>
+      <ul id="card-details"></ul>
+    </div>
+  </div>
+
+  <div class="footer"></div>
+
+  <script type="text/javascript" src="scripts.js"></script>
+
+</body>
+
 </html>
